@@ -97,12 +97,14 @@ video {
 }
 
 main {
-  margin: 1rem;
+  margin: 3rem;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .book-card {
-  flex: 1;
+  flex: 300px;
+  margin: 30px 0 30px 0;
 }
 
 dialog {
