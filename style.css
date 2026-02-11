@@ -1,0 +1,119 @@
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+select {
+  appearance: none;
+  width: 100%;
+  height: 100%;
+}
+
+.select-wrapper {
+  position: relative;
+}
+
+.select-wrapper::after {
+  content: "▼";
+  font-size: 1rem;
+  top: 3px;
+  right: 10px;
+  position: absolute;
+}
+
+button,
+label,
+input,
+select,
+progress,
+meter {
+  display: block;
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0 0 1rem 0;
+  box-sizing: border-box;
+  padding: 5px;
+  height: 30px;
+}
+
+input[type="text"],
+input[type="datetime-local"],
+input[type="color"],
+select {
+  box-shadow: inset 1px 1px 3px #ccc;
+  border-radius: 5px;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+
+
+textarea {
+  overflow: auto;
+}
+
+input[type="checkbox"] {
+  appearance: none;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  box-sizing: inherit;
+}
+
+:root {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: rgb(159, 115, 48);
+	/* 0 refers to top and bottom margins, auto refers to left and right one. auto automatically centers the contend horizontally, but only with display:block elements. This width, height and margin values get rid of the horizontal bar */
+	width: 100%;
+	height: 100vh;
+	margin: 0 auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+img,
+picture,
+video {
+  max-width: 100%;
+}
+
+main {
+  margin: 1rem;
+  display: flex;
+}
+
+.book-card {
+  flex: 1;
+}
+
+dialog {
+    position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  width: 50%;
+  padding: 2rem;
+  background-color: darkseagreen;
+
+}
